@@ -62,3 +62,22 @@
   2. 컴파일러(gcc)      : 소스파일을 기계어로 번역 → 코드를 한번 실행하면 통 번역 → 두번째 실행때는 실행파일(exe)만 실행시킴
   3. hello.exe
   * 인터프리터 : 코드라인 1줄 번역(Python) → 코드를 실행할때 마다 한줄씩 계속 실행행
+
+## 3. 버전관리 도구
+  - 버전관리 목적
+  - 협업을 위한 목적
+  - git → 버전관리도구
+  - github → git을 웹 클라우드 기반에서 동작 서비스 
+  - gitlab → git을 (회사)서버 기반으로 동작 (회사서버를 회사에서만 접속하도록 막음)
+  - 아틀라시안 회사(비트버킷 + 소스트리)
+
+### 3-1. 초기 git 프로젝트 생성
+  1. 로컬 : git 설치
+  2. GITHUB : github rppository 생성
+  3. 로컬 : git config --global user.email and user.name 설정
+  4. 로컬 : git init
+  5. 로컬 : git add [파일]
+  6. 로컬 : git commit -m "init project"
+  7. 로컬 : git remote add [본인repository 주소]
+  8. 로컬 : git remote -v
+  9. 로컬 : git push -u origin master
