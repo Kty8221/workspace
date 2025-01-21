@@ -13,6 +13,7 @@ void main(){
     p = s;
     p++;
     
-    printf("%s\n", p-> name);
-    printf("%d\n", p-> age);
+    // -> : 포인터로 구조체에 접근
+    printf("%s\n", p-> name);  // 값: Lee
+    printf("%d\n", p-> age);  // 값: 38
 }
